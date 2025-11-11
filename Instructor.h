@@ -5,6 +5,17 @@
 using namespace std;
 //#write Instructor class here
 
+class Instructor{
+private:
+string department 
+int exprienceYears
+public:
+display(){
+cout<< "The department is: "<< department<<;
+cout<<"The number of expeirenced years is"<< exprienceYears<<;
+}
+}
+
 
 
 
