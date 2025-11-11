@@ -11,6 +11,11 @@ private:
 string name;
 int id;
 
+person(string name, int id){
+this->name = name;
+this->int = int;
+}
+
 public:
 display(){
 cout<<"The persons name is: "<<name<<;
