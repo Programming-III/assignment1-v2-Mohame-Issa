@@ -9,6 +9,13 @@ class Instructor{
 private:
 string department 
 int exprienceYears
+Instructor(stringng department, int exprienceYears){
+  this->department = department;
+  this -> exprienceYears = exprienceYears;
+}
+
+
+
 public:
 display(){
 cout<< "The department is: "<< department<<;
